@@ -19,4 +19,4 @@ llm_config={
 assistant = AssistantAgent("assistant", llm_config=llm_config)
 user_proxy = UserProxyAgent("user_proxy", code_execution_config={"work_dir": "coding"})
 
-user_proxy.initiate_chat(assistant, message="Plot a chart of NVDA and TESLA stock price change YTD.")
+user_proxy.initiate_chat(assistant, message="Find the distance between two points in js")
